@@ -1,0 +1,5 @@
+require("options")
+require("keymaps")
+require("plugins.plugins-setup")
+require("plugins.nvim-tree")
+require("plugins.lualine")
