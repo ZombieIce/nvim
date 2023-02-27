@@ -32,6 +32,8 @@ return require('packer').startup(function(use)
     }
   }
   use ("christoomey/vim-tmux-navigator")
+  use "neovim/nvim-lspconfig"
+
 
   if packer_bootstrap then
     require('packer').sync()
