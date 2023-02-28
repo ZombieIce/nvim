@@ -36,6 +36,7 @@ return require('packer').startup(function(use)
   use "nvim-treesitter/nvim-treesitter"
   use "p00f/nvim-ts-rainbow"
  
+  -- mason-lspconfig
   use {
     "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",  -- 这个相当于mason.nvim和lspconfig的桥梁
