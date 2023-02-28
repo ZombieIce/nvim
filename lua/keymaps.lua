@@ -13,3 +13,9 @@ keymap.set("n", "<leader>ws", "<C-w>s")
 keymap.set("n", "<leader>nh", ":nohll<CR>")
 
 keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
+
+keymap.set({"n", "t"}, "<C-h>", "<CMD>NavigatorLeft<CR>")
+keymap.set({"n", "t"}, "<C-j>", "<CMD>NavigatorDown<CR>")
+keymap.set({"n", "t"}, "<C-k>", "<CMD>NavigatorUp<CR>")
+keymap.set({"n", "t"}, "<C-l>", "<CMD>NavigatorRight<CR>")
+keymap.set({"n", "t"}, "<C-p>", "<CMD>NavigatorPrevious<CR>")

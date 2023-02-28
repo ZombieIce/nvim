@@ -31,12 +31,13 @@ return require('packer').startup(function(use)
       'nvim-tree/nvim-web-devicons', -- 文档树图标
     }
   }
-  use ("christoomey/vim-tmux-navigator")
-  use "neovim/nvim-lspconfig"
+  -- use ("christoomey/vim-tmux-navigator")
   use "nvim-treesitter/nvim-treesitter"
   use "p00f/nvim-ts-rainbow"
- 
+  use "numToStr/Navigator.nvim"
+  use "windwp/nvim-autopairs"
   -- mason-lspconfig
+
   use {
     "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",  -- 这个相当于mason.nvim和lspconfig的桥梁
@@ -51,7 +52,7 @@ return require('packer').startup(function(use)
   use "rafamadriz/friendly-snippets"
   use "hrsh7th/cmp-path" -- 文件路径
 
-
+  use "akinsho/toggleterm.nvim"
 
   if packer_bootstrap then
     require('packer').sync()
