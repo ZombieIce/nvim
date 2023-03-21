@@ -8,7 +8,8 @@ opt.shiftwidth = 2
 opt.expandtab = true
 opt.autoindent = true
 
-opt.wrap = false
+opt.wrap = true
+opt.textwidth = 70
 
 opt.cursorline = true
 
